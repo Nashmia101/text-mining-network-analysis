@@ -38,14 +38,14 @@ R, `tm`, `SnowballC`, `proxy`, `igraph`, `SentimentAnalysis`, `wordcloud`
 
 ## Repository Structure
 
-├── corpus/              # 21 source .txt documents (7 skincare, 7 sports, 7 tech)
+├── corpus/ # 21 source .txt documents (7 skincare, 7 sports, 7 tech)
 ├── scripts/
-│   ├── Q3_text_processing_dtm.R
-│   ├── Q4_clustering.R
-│   ├── Q5_sentiment_analysis.R
-│   ├── Q6_document_network.R
-│   ├── Q7_token_network.R
-│   └── Q8_bipartite_network.R
+│ ├── Q3_text_processing_dtm.R
+│ ├── Q4_clustering.R
+│ ├── Q5_sentiment_analysis.R
+│ ├── Q6_document_network.R
+│ ├── Q7_token_network.R
+│ └── Q8_bipartite_network.R
 └── README.md
 
 ## Notes
