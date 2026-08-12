@@ -38,16 +38,15 @@ R, `tm`, `SnowballC`, `proxy`, `igraph`, `SentimentAnalysis`, `wordcloud`
 
 ## Repository Structure
 
-├── corpus/ # 21 source .txt documents (7 skincare, 7 sports, 7 tech)
-├── scripts/
-│ ├── Q3_text_processing_dtm.R
-│ ├── Q4_clustering.R
-│ ├── Q5_sentiment_analysis.R
-│ ├── Q6_document_network.R
-│ ├── Q7_token_network.R
-│ └── Q8_bipartite_network.R
-└── README.md
-
+- `corpus/` — 21 source `.txt` documents (7 skincare, 7 sports, 7 tech)
+- `scripts/`
+  - `Q3_text_processing_dtm.R`
+  - `Q4_clustering.R`
+  - `Q5_sentiment_analysis.R`
+  - `Q6_document_network.R`
+  - `Q7_token_network.R`
+  - `Q8_bipartite_network.R`
+- `README.md`
 ## Notes
 
 Scripts are numbered to match the corresponding analysis question and are meant to be run in sequence (Q3 → Q4/Q5/Q6/Q7/Q8), since later scripts depend on objects created in Q3 (`dtms`, `dtms_final_matrix`) and Q5 (`sentiment_qdap`).
